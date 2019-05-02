@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
- # Copyright 2018 simple-syslog authors
+ # Copyright 2019 Otto Fowler
  # All rights reserved.
  # Licensed under the Apache License, Version 2.0 (the "License");
  # you may not use this file except in compliance with the License.

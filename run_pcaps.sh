@@ -43,7 +43,8 @@ DATE=$(date)
 LOG_DATE=${DATE// /_}
 
 #DATA_PATH is the path to a directory containing pcaps or directories with pcaps
-#TEST_OUTPUT_PATH is a path to a directory where the bro output will be put
+#TEST_OUTPUT_BASE is the base path provided by the user where the bro output will be put
+#TEST_OUTPUT_PATH is the complete path including the date
 DATA_PATH=
 TEST_OUTPUT_BASE=
 
@@ -96,7 +97,7 @@ if [[ ! -d "${TEST_OUTPUT_PATH}" ]]; then
 fi
 
 
-echo "Running build_container with "
+echo "Running pcaps with "
 echo "DATA_PATH        = $DATA_PATH"
 echo "TEST_OUTPUT_PATH = $TEST_OUTPUT_PATH"
 echo "==================================================="

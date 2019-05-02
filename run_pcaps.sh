@@ -115,7 +115,7 @@ do
   cd "${TEST_OUTPUT_PATH}/${OUTPUT_DIRECTORY_NAME}" || exit 1
   pwd
   echo "Processing ${file}"
-  bro /usr/local/bro/share/bro/site/local.bro -C -r "${file}"
+  bro site/local -C -r "${file}"
   rc=$?; if [[ ${rc} != 0 ]]; then
     exit ${rc}
   fi

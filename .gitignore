@@ -1,0 +1,43 @@
+#ide stuff
+.idea
+*.iml
+*.iws
+.DS_Store
+
+.state
+build
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Log files
+*.log
+# pcap files
+*.pcap
+*.pcapng

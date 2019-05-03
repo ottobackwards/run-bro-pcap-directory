@@ -23,8 +23,8 @@ set -o pipefail
 function help {
   echo " "
   echo "USAGE"
-  echo "    --data-path                     The pcap data path
-  echo "    --output-path                   the path to the directory to output test data
+  echo "    --data-path                     The pcap data path"
+  echo "    --output-path                   the path to the directory to output test data"
   echo "    -h/--help                       Usage information."
   echo " "
   echo "COMPATABILITY"
